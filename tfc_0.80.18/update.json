@@ -1,0 +1,15 @@
+{
+    "versionList": [
+        {
+            "mcVersion":"Minecraft 1.7.10",
+            "tfcVersion":"0.80.18",
+            "modVersion":"0.3.01",
+            "changeLog": [
+                "Initial Upload"
+            ],
+            "updateURL":"https://raw.githubusercontent.com/Bletch1971/TFCPlusUdaryMod/tfc_0.80.18/[1.7.10]TFCPlusUdaryMod-0.3.01.jar",
+            "isDirectLink":"true",
+            "newFileName":"[1.7.10]TFCPlusUdaryMod-0.3.01.jar"
+        }
+    ]
+}
