@@ -1,0 +1,50 @@
+6/06/2015 11:56:45 AM [INFO] Player EntityPlayerMP['Bletch1971'/1891, l='552410100928560491', x=996.66, y=144.00, z=-6081.40](Bletch1971 at 996.6556219148077,144.0,-6081.399743372801) connected. Sending ping
+6/06/2015 12:01:21 PM [SEVERE] Encountered an unexpected exception
+6/06/2015 12:01:21 PM java.lang.NoClassDefFoundError: net/minecraft/client/multiplayer/WorldClient
+6/06/2015 12:01:21 PM 	at udary.tfcudarymod.items.tools.ItemTuckerBag.func_77659_a(ItemTuckerBag.java:249) ~[ItemTuckerBag.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.item.ItemStack.func_77957_a(ItemStack.java:167) ~[add.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.server.management.ItemInWorldManager.func_73085_a(ItemInWorldManager.java:378) ~[mx.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.network.NetHandlerPlayServer.func_147346_a(NetHandlerPlayServer.java:847) ~[nh.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.func_148833_a(SourceFile:60) ~[jo.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.func_148833_a(SourceFile:9) ~[jo.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:244) ~[ej.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:173) ~[nc.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:980) ~[MinecraftServer.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:423) ~[lt.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:798) ~[MinecraftServer.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:658) [MinecraftServer.class:?]
+6/06/2015 12:01:21 PM 	at java.lang.Thread.run(Unknown Source) [?:1.7.0_75]
+6/06/2015 12:01:21 PM Caused by: java.lang.ClassNotFoundException: net.minecraft.client.multiplayer.WorldClient
+6/06/2015 12:01:21 PM 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.11.jar:?]
+6/06/2015 12:01:21 PM 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.7.0_75]
+6/06/2015 12:01:21 PM 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.7.0_75]
+6/06/2015 12:01:21 PM 	... 13 more
+6/06/2015 12:01:21 PM Caused by: java.lang.RuntimeException: Attempted to load class bjf for invalid side SERVER
+6/06/2015 12:01:21 PM 	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:51) ~[cauldron-1.7.10-1.1240.06.213-server.jar:git-Cauldron-MCPC-Plus-1.7.10-1.1240.06.213]
+6/06/2015 12:01:21 PM 	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.11.jar:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.11.jar:?]
+6/06/2015 12:01:21 PM 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.7.0_75]
+6/06/2015 12:01:21 PM 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.7.0_75]
+6/06/2015 12:01:21 PM 	... 13 more
+6/06/2015 12:01:21 PM [SEVERE] 	Cause of unexpected exception was
+6/06/2015 12:01:21 PM java.lang.ClassNotFoundException: net.minecraft.client.multiplayer.WorldClient
+6/06/2015 12:01:21 PM 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.11.jar:?]
+6/06/2015 12:01:21 PM 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.7.0_75]
+6/06/2015 12:01:21 PM 	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.7.0_75]
+6/06/2015 12:01:21 PM 	at udary.tfcudarymod.items.tools.ItemTuckerBag.func_77659_a(ItemTuckerBag.java:249) ~[ItemTuckerBag.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.item.ItemStack.func_77957_a(ItemStack.java:167) ~[add.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.server.management.ItemInWorldManager.func_73085_a(ItemInWorldManager.java:378) ~[mx.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.network.NetHandlerPlayServer.func_147346_a(NetHandlerPlayServer.java:847) ~[nh.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.func_148833_a(SourceFile:60) ~[jo.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.func_148833_a(SourceFile:9) ~[jo.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.network.NetworkManager.func_74428_b(NetworkManager.java:244) ~[ej.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.network.NetworkSystem.func_151269_c(NetworkSystem.java:173) ~[nc.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:980) ~[MinecraftServer.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:423) ~[lt.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:798) ~[MinecraftServer.class:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:658) [MinecraftServer.class:?]
+6/06/2015 12:01:21 PM 	at java.lang.Thread.run(Unknown Source) [?:1.7.0_75]
+6/06/2015 12:01:21 PM Caused by: java.lang.RuntimeException: Attempted to load class bjf for invalid side SERVER
+6/06/2015 12:01:21 PM 	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:51) ~[cauldron-1.7.10-1.1240.06.213-server.jar:git-Cauldron-MCPC-Plus-1.7.10-1.1240.06.213]
+6/06/2015 12:01:21 PM 	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.11.jar:?]
+6/06/2015 12:01:21 PM 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.11.jar:?]

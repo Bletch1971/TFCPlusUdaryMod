@@ -1,0 +1,10 @@
+Bugs
+- doesn't disappear at zero dura
+Fixed
+
+
+Enhancements
+- place where you're looking not current location (I've placed underground too many times)
+Fixed, now using a scaled vector approach
+- change dura to 2
+Done

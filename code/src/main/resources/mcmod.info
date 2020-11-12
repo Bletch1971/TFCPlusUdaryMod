@@ -1,0 +1,28 @@
+{
+    "modListVersion": 2,
+    "modList": [{
+        "modid": "tfcplusudarymod",
+        "name": "TFC+ Udary Mod",
+        "description": "§bThis mod adds additional functionality for use with TerraFirmaCraft+ §a${tfc_version}.
+§e
+1. Silver extraction from Galena ore.
+2. Nickel extraction from Limonite ore.
+3. Transporting animals with Tucker Bags.
+4. Extracting items from fluids via Evaporation.
+5. Drying mat to dry fruit.
+6. TFC Additions",
+        "version": "${mod_version}",
+        "mcversion": "${minecraft_version}",
+        "url": "",
+        "updateUrl": "",
+        "authorList": ["§6Bletch"],
+        "credits": "Udary",
+        "logoFile": "",
+        "screenshots": [],
+        "parent": "",
+        "requiredMods": [  ],
+        "dependencies": [  ],
+        "dependants": [  ],
+        "useDependencyInformation": "true"
+    }]
+}

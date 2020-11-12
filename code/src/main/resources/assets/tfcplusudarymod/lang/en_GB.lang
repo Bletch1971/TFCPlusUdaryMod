@@ -1,0 +1,44 @@
+#en_UK
+#This is the configuration file for UK English
+
+#==========
+#= Fluids =
+#==========
+item.Bottled Sulfuric Acid.name=Bottled Sulphuric Acid
+
+fluid.sulfuricacid=Sulphuric Acid
+
+#===========
+#= Pottery =
+#===========
+item.Rod Mold.Clay Mold Rod.name=Clay Rod Mould
+item.Rod Mold.Ceramic Mold Rod.name=Rod Mould
+item.Rod Mold.Ceramic Mold Rod Copper.name=Rod Mould (Copper)
+#===========
+#= Recipes =
+#===========
+
+recipe.AV Sulfuric Acid.name=Sulphuric Acid
+recipe.EP Fertilizer.name=Fertiliser
+recipe.EP Sulfer.name=Sulphur
+recipe.EP Saltpeter.name=Saltpetre
+
+#========
+#= Misc =
+#========
+
+#== Creative Tabs ==
+itemGroup.UdaryArmor=(Udary) Armour
+
+#=========
+#= WAILA =
+#=========
+
+#== Tooltips ==
+tooltip.familiarisedlast=Last Familiarised
+tooltip.familiarisedtoday=Familiarised Today
+tooltip.gender=Sex
+
+#== Options - Entities ==
+option.udary.terrafirmacraft.animal.gender=Animal - Sex?
+option.udary.terrafirmacraft.stand.armor=Armor Stand - Armour?
